@@ -1,0 +1,31 @@
+ngb-pagination{
+  justify-content: center !important;
+  display: flex !important;
+}
+
+
+@import "../../theme/sass/conf/conf";
+
+.modal-buttons .btn {
+  margin-right: 20px;
+}
+
+.modal-content {
+  color: $dropdown-text;
+}
+
+.modal-header {
+  @include bg-translucent-dark(0.55);
+}
+
+.modal-body {
+  @include bg-translucent-dark(0.55);
+}
+.modal-footer {
+  @include bg-translucent-dark(0.55);
+}
+
+
+.employee {
+  margin: 5px 0;
+}
